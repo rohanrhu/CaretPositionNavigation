@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "CaretPositionNavigation: Clear History",
+        "command": "caret_pos_clear_history"
+    }
+]

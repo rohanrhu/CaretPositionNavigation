@@ -1,0 +1,83 @@
+[
+    {
+        "caption": "Goto",
+        "id": "goto",
+        "children": [
+            {
+                "args": {
+                    "nav": "prev"
+                },
+                "caption": "Caret Goto Prev",
+                "command": "caret_pos_nav",
+            },
+            {
+                "args": {
+                    "nav": "next"
+                },
+                "caption": "Caret Goto Next",
+                "command": "caret_pos_nav",
+            },
+            {"caption": "-"},
+        ]
+    },
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "CaretPositionNavigation",
+                        "children":
+                        [
+                            {
+                                "args": {
+                                    "file": "${packages}/CaretPositionNavigation/Prefences.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/CaretPositionNavigation.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 User",
+                                "command": "open_file"
+                            },
+                            {"caption": "-"},
+                            {
+                                "args": {
+                                    "file": "${packages}/CaretPositionNavigation/Default (Linux).sublime-keymap"
+                                },
+                                "caption": "Keybindings (Linux) \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/CaretPositionNavigation/Default (OSX).sublime-keymap"
+                                },
+                                "caption": "Keybindings (OSX) \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/CaretPositionNavigation/Default (Windows).sublime-keymap"
+                                },
+                                "caption": "Keybindings (Windows) \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/CaretPositionNavigation.sublime-keymap"
+                                },
+                                "caption": "Keybindings \u2013 User",
+                                "command": "open_file"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+]
