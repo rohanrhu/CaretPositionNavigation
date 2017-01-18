@@ -1,4 +1,4 @@
 [
-    { "keys": ["cmd+shift+left"], "command": "caret_pos_nav", "args": {"nav": "prev"} },
-    { "keys": ["cmd+shift+right"], "command": "caret_pos_nav", "args": {"nav": "next"} },
+    { "keys": ["command+shift+left"], "command": "caret_pos_nav", "args": {"nav": "prev"} },
+    { "keys": ["command+shift+right"], "command": "caret_pos_nav", "args": {"nav": "next"} },
 ] 
