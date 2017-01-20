@@ -3,10 +3,6 @@ Navigate prev-next over cursor position history in Sublime Text!
 
 ## Installation
 
-#### Package Control
-
-Press `ctrl+shift+p` shortcut, run `Package Control: Install Package` command and install `CaretPositionNavigation` plugin.
-
 #### Git
 
 ##### Linux
